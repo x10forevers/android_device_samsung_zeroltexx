@@ -15,9 +15,9 @@
 #
 
 ## (2) Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/zerofltexx/zerofltexx-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/zeroltexx/zeroltexx-vendor.mk)
 
-LOCAL_PATH := device/samsung/zerofltexx
+LOCAL_PATH := device/samsung/zeroltexx
 
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
